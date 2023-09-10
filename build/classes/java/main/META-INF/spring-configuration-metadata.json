@@ -1,0 +1,73 @@
+{
+  "groups": [
+    {
+      "name": "mail.smtp",
+      "type": "com.exam.mix.config.email.EmailProperties",
+      "sourceType": "com.exam.mix.config.email.EmailProperties"
+    },
+    {
+      "name": "mail.smtp.socketfactory",
+      "type": "com.exam.mix.config.email.socketFactoryProperties",
+      "sourceType": "com.exam.mix.config.email.socketFactoryProperties"
+    },
+    {
+      "name": "mail.smtp.starttls",
+      "type": "com.exam.mix.config.email.StartTlsProperties",
+      "sourceType": "com.exam.mix.config.email.StartTlsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mail.smtp.auth",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.exam.mix.config.email.EmailProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "mail.smtp.id",
+      "type": "java.lang.String",
+      "sourceType": "com.exam.mix.config.email.EmailProperties"
+    },
+    {
+      "name": "mail.smtp.password",
+      "type": "java.lang.String",
+      "sourceType": "com.exam.mix.config.email.EmailProperties"
+    },
+    {
+      "name": "mail.smtp.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.exam.mix.config.email.EmailProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "mail.smtp.socketfactory.fallback",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.exam.mix.config.email.socketFactoryProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "mail.smtp.socketfactory.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.exam.mix.config.email.socketFactoryProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "mail.smtp.socketfactory.soketclass",
+      "type": "java.lang.String",
+      "sourceType": "com.exam.mix.config.email.socketFactoryProperties"
+    },
+    {
+      "name": "mail.smtp.starttls.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.exam.mix.config.email.StartTlsProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "mail.smtp.starttls.required",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.exam.mix.config.email.StartTlsProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}
